@@ -1,3 +1,21 @@
+function checkPassword() {
+  var password = document.getElementById("passwordInput").value;
+  if (password === "maimai1tinhyeu") {
+    document.getElementById("passwordDiv").style.display = "none";
+    alert("Chào mừng đến với ngôi nhà của chúng ta !!!");
+    document.body.style.overflow = "auto"; // Restore scrolling
+  } else {
+    alert("Mật khẩu sai rùi, lại đê bạn êi...");
+  }
+}
+
+document.getElementById("passwordInput").addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    checkPassword();
+  }
+});
+
+
 // Lấy modal
 var modal = document.getElementById('myModal');
 
