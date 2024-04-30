@@ -1,6 +1,6 @@
 function checkPassword() {
   var password = document.getElementById("passwordInput").value;
-  if (password === "maimai1tinhyeu") {
+  if (password === "183204264") {
     document.getElementById("passwordDiv").style.display = "none";
     alert("Chào mừng đến với ngôi nhà của chúng ta !!!");
     document.body.style.overflow = "auto"; // Restore scrolling
