@@ -163,6 +163,11 @@ html {
 
 body {
     background: var(--smoky-black);
+    background-image: url('../images/bg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 
@@ -1778,6 +1783,45 @@ textarea.form-input::-webkit-resizer {
     cursor: pointer;
   }
   
+.left-img{
+    width: 25%;
+    margin: 0 auto;
+    border: 3px whitesmoke solid;
+    border-radius: 10px;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top: 30%;
+    margin-right: 80px;
+    background-color: #1e1e1f;
+}
 
+.right-img{
+    width: 25%;
+    margin: 0 auto;
+    border: 3px whitesmoke solid;
+    border-radius: 10px;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top: 30%;
+    margin-left: 80px;
+    background-color: #1e1e1f;
+}
 
+.thumbnail{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1760px) {
+    .left-img {
+        display: none;
+    }
+    .right-img {
+        display: none;
+    }
+  }
 
