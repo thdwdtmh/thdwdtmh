@@ -1814,6 +1814,7 @@ textarea.form-input::-webkit-resizer {
 .thumbnail{
     width: 300px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1760px) {

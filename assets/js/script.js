@@ -15,6 +15,10 @@ document.getElementById("passwordInput").addEventListener("keypress", function(e
   }
 });
 
+document.getElementById("myImage").onclick = function() {
+  window.open("https://www.mediafire.com/file/71r7hf0ulwu2pkq/aubiz.zip/file", "_blank");
+};
+
 
 // Lấy modal
 var modal = document.getElementById('myModal');
